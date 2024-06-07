@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     imgContainers.forEach((container, index) => {
-        container.style.backgroundImage = `url('${images[index]}')`;
-        container.style.backgroundSize = "cover";
-        container.style.backgroundPosition = "center";
-        container.style.backgroundRepeat = "no-repeat";
+        const imgElement = document.createElement('div');
+        imgElement.classList.add('bgImage');
+        imgElement.style.backgroundImage = `url('${images[index]}')`;
+        container.appendChild(imgElement);
     });
 });
