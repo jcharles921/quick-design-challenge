@@ -43,4 +43,4 @@ This project is a simple image gallery showcasing different species of animals. 
 
 ### Special Thanks
 
-- Code of Adrica  for the Challenge and design.
+- Code of Africa  for the Challenge and design.

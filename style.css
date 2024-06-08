@@ -89,7 +89,7 @@ body {
   gap: 0.5rem;
   z-index: 3;
 }
-.overlay:hover {
+.imgContainer:hover .overlay {
   background: rgba(0, 0, 0, 0.7);
 }
 .break {
